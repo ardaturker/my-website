@@ -1,0 +1,15 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    height: 80px;
+    font-size: smaller;
+    overflow: hidden;
+}
+
+#about .items {
+    flex-direction: column;
+}
+#about .items .item {
+    width:100%;
+}

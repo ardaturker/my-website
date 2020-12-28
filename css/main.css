@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family:"Open Sans",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Navbar */
+#navbar h1{
+    font-size: 1.5rem;
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    font-size: larger;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    background:rgb(3, 167, 3);
+    border-radius: 4px;
+}
+/* Home Section */
+
+
+#home {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+  
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+    margin-top: 1rem;
+    margin-bottom:0.75rem;
+}
+#home .name p{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* About */
+#about{
+    color: white;
+    padding: 1rem;
+    
+}
+#about h2{ 
+    padding-bottom: 1.5rem;
+    font-style: italic; 
+}
+#about h3{
+    font-size: 1.2rem;
+    text-align:center ;
+    padding-bottom: 1rem;
+}
+#about .items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .items .item1{
+    width:33%;
+    text-align: center;
+}
+#about .items .item2{
+    width:33%;
+    text-align: center;
+}
+
+#about .items .item3{
+    width:33%;
+    text-align: center;
+}
+
+#about .items .item1 h3:after{
+    content: "Who am I?";
+    transition: 2s;
+}
+#about .items .item1 h3:hover:after{
+    content:"Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.";
+    font-size: 1rem;
+}
+#about .items .item1 h3:hover{
+    transform: scale(1.1);
+    color: white;
+    transition:2s;
+}
+
+#about .items .item2 h3:after{
+    content: "What do I do?";
+    transition: 2s;
+}
+#about .items .item2 h3:hover:after{
+    content:"Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.";
+    font-size: 1rem;
+}
+#about .items .item2 h3:hover{
+    transform: scale(1.1);
+    color: white;
+    transition:2s;
+}
+
+#about .items .item3 h3:after{
+    content: "My Goals";
+    transition: 2s;
+}
+#about .items .item3 h3:hover:after{
+    content:"Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.";
+    font-size: 1rem;
+}
+#about .items .item3 h3:hover{
+    transform: scale(1.1);
+    color: white;
+    transition:2s;
+}
+   
